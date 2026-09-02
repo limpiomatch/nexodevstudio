@@ -3,14 +3,16 @@ import { COMPANY } from "./company";
 export const CTA = {
   badge: "Hablemos",
 
-  title: "Hablemos de tu próximo proyecto.",
+  title: "¿Listo para comenzar?",
 
   description:
-    "Cuéntanos tu idea y te ayudaremos a convertirla en un producto digital moderno, rápido y preparado para crecer.",
+    "Hagamos realidad tu idea.",
 
   primaryButton: {
-    text: "Agendar una reunión",
-    href: `whatsapp://send?phone=${COMPANY.phone}&text=Hola,%20quiero%20agendar%20una%20reunión%20para%20hablar%20de%20mi%20proyecto.`
+    text: "Agenda una llamada",
+    href: COMPANY.whatsapp,
+    target: "_blank",
+    rel: "noopener noreferrer"
   },
 
   secondaryButton: {
@@ -18,3 +20,4 @@ export const CTA = {
     href: "#projects"
   }
 };
+// "https://wa.me/+573226933654?text=Hola%20NexoDevStudio%2C%20estoy%20interesado%20en%20agendar%20una%20demo%20de%20tu%20men%C3%BA%20digital." 

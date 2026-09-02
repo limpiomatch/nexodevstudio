@@ -3,10 +3,10 @@ export const COMPANY = {
 
   slogan: "Construimos productos digitales que impulsan negocios.",
 
-  tagline:"Construimos productos digitales.",
+  tagline: "Construimos productos digitales.",
 
-  description:"Desarrollamos software moderno, aplicaciones web, landing pages, automatización e inteligencia artificial.",
-  
+  description: "Desarrollamos software moderno, aplicaciones web, landing pages, automatización e inteligencia artificial.",
+
   email: "contacto@nexodevstudio.com",
 
   phone: "+573226933654",
@@ -15,5 +15,7 @@ export const COMPANY = {
 
   founded: 2026,
 
-  cta: "Hablemos de tu proyecto"
+  cta: "Hablemos de tu proyecto",
+
+  whatsapp: "https://wa.me/+573226933654/?text=Hola%20NexoDevStudio%2C%20estoy%20interesado%20en%20una%20solucion%20digital, podemos agendar una llamada?."
 }

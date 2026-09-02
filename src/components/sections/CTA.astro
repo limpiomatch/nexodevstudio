@@ -6,11 +6,8 @@ import { CTA } from "../../data/cta";
 ---
 
 <section id="cta">
-
     <Container>
-
         <div class="cta-box">
-
             <Badge text={CTA.badge} />
 
             <h2>{CTA.title}</h2>
@@ -18,22 +15,18 @@ import { CTA } from "../../data/cta";
             <p>{CTA.description}</p>
 
             <div class="cta-buttons">
-
-                <Button href={CTA.primaryButton.href}>
+                <Button
+                    href={CTA.primaryButton.href}
+                    target={CTA.primaryButton.target}
+                    rel={CTA.primaryButton.rel}
+                >
                     {CTA.primaryButton.text}
                 </Button>
 
-                <a
-                    href={CTA.secondaryButton.href}
-                    class="cta-secondary"
-                >
+                <a href={CTA.secondaryButton.href} class="cta-secondary">
                     {CTA.secondaryButton.text}
                 </a>
-
             </div>
-
         </div>
-
     </Container>
-
 </section>
