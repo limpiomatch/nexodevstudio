@@ -1,5 +1,6 @@
 # NexoDevStudio
-
+ deploy en vercel limpiomatch
+ git en limpiomatch
 Landing page oficial de **NexoDevStudio**, desarrollada con Astro y enfocada en presentar nuestros servicios de desarrollo web, automatización e inteligencia artificial.
 
 ---
