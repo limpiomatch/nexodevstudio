@@ -1,6 +1,7 @@
 ---
 import Button from "../ui/Button.astro";
 import GridBackground from "../ui/GridBackground.astro";
+import { CTA } from "../../data/cta";
 ---
 
 <section
@@ -34,10 +35,16 @@ import GridBackground from "../ui/GridBackground.astro";
         </p>
 
         <div class="mt-12 flex flex-wrap gap-4">
-            <Button href="#projects"> Ver proyectos </Button>
+            <Button href="#projects" variant="secondary">
+                Ver proyectos
+            </Button>
 
-            <Button href="#contact" variant="secondary">
-                Agendar llamada
+            <Button
+                href={CTA.primaryButton.href}
+                target={CTA.primaryButton.target}
+                rel={CTA.primaryButton.rel}
+            >
+                {CTA.primaryButton.text}
             </Button>
         </div>
     </div>
